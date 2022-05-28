@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AyahAlolabi-201263</string>
+    <string name="name">Name: AyahAlolabi</string>
+    <string name="id">ID: 201263</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="students_by">Students By</string>
+    <string name="students_create">Create new Student</string>
+    <string name="students_by_firebase">Firebase</string>
+    <string name="weather">Weather</string>
+    <string name="students_by_sqlite">SQLite</string>
+    <string name="name_demo">name</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_name_sur">Student Sur Name</string>
+    <string name="student_name_father">Student Father Name</string>
+    <string name="student_id_National">National ID</string>
+    <string name="student_dateOfBirth">Date Of Birth</string>
+    <string name="student_gender">Gender</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddStudentActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+        <EditText
+            android:id="@+id/et_id_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_id"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/et_name_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_name"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/et_surname_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_name_sur"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/et_father_name_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_name_father"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/et_national_id_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_id_National"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/et_dateOfBirth_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_dateOfBirth"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:inputType="date"
+
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/et_gander_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/student_gender"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_weight="1"
+
+            android:backgroundTint="#1FAD9F"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/students_create"
+            android:textAllCaps="false"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+    </LinearLayout>
+
+
+</ScrollView>
